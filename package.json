@@ -1,0 +1,22 @@
+{
+  "name": "littlemeat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dejavu92427/littleMeat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dejavu92427/littleMeat/issues"
+  },
+  "homepage": "https://github.com/dejavu92427/littleMeat#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.57.0"
+  }
+}
