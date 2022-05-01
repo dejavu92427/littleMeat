@@ -1,9 +1,10 @@
 var express = require('express');
-var packageInfo = require('./package.json');
+var packageInfo = require('../package.json');
 
 var app = express();
 
 app.get('/', function (req, res) {
+  res.send('5000');
   res.json({ version: packageInfo.version });
 });
 
